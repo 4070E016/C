@@ -6,6 +6,16 @@ int main(void)
    printf("Hello C!\n");   	/* 印出Hello C! 字串 */
    printf("Hello World!\n");   /* 印出Hello World! 字串 */   
    
-#   system("pause");
+   system("pause");
    return 0;
 }
+
+
+
+
+include:標頭檔
+https://zh.wikipedia.org/wiki/%E5%A4%B4%E6%96%87%E4%BB%B6
+
+Stdio.h:
+https://zh.wikipedia.org/wiki/Stdio.h
+
