@@ -1,5 +1,7 @@
-
+編輯
 vim c000_1.c
 nano c300_1.c
 gedit c300_1.c
 
+ls /檢視檔案
+gcc 檔名   /編譯
