@@ -1,0 +1,64 @@
+# for  1+到99
+
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   int i,sum=0;
+   
+   for(i=1;i<=99;i++)			
+      sum+=i;
+      
+   printf("1+2+3+...+10=%d\n",sum);	
+   
+   system("pause");
+   return 0;
+}
+
+
+# while 1+到99
+
+while迴圈的使用 */
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   int i=1,sum=0;	/* 設定迴圈初值 */
+   while(sum<4950)    /* while迴圈，當sum小於99則繼續累加 */
+   {
+      sum= sum+i;
+      printf("從1累加到%2d=%2d\n",i,sum);
+      i++;
+   }
+   printf("必須累加到%d\n",i-1);
+   system("pause");
+   return 0;
+}
+
+
+
+do while +到99 
+
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   int n,i=1,sum=0;	/* 設定迴圈初值 */
+   do
+   {
+      printf("請輸入n值 (n>0): ");
+      scanf("%d",&n);
+   }
+   while (n<=0);		/* 當n<=0時重複輸入n的值 */
+
+   do
+      sum+=i++;		/* 計算sum=sum+i之後，i的值再加1 */
+   while (i <= n);	/* 當i<=n時執行累加的動作 */
+   printf("1+2+...+%d=%d\n",n,sum);
+
+   system("pause");
+   return 0;
+}
+
+
+
