@@ -26,11 +26,12 @@ int fib(int n)
 }
 
 ```
-
+```
 
 
 
 # do while 費式系列
+```
 ```
 #include <stdio.h>
 #include <stdlib.h>
