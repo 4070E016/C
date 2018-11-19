@@ -75,7 +75,7 @@ int main(void)
    printf("請輸入你要計算的內容:");
    scanf("%d",&x);
    n=1;
-   while(n<=x);
+   while(n<=x)
       {
 	  printf("fib(%d)=%d\n",n,fib(n));		
       n++;
