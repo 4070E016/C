@@ -1,5 +1,7 @@
 # FOR 費式系列
 
+```
+```
 #include <stdio.h>
 #include <stdlib.h>
 int fib(int);			
@@ -23,13 +25,13 @@ int fib(int n)
       return (fib(n-1)+fib(n-2));
 }
 
-
+```
 
 
 
 
 # do while 費式系列
-
+```
 #include <stdio.h>
 #include <stdlib.h>
 int fib(int);			
@@ -57,15 +59,15 @@ int fib(int n)
    else				
       return (fib(n-1)+fib(n-2));
 }
-
-
+```
+```
 
 
 
 
 
 # while 費式系列
-
+```
 #include <stdio.h>
 #include <stdlib.h>
 int fib(int);			
@@ -94,3 +96,5 @@ int fib(int n)
       return (fib(n-1)+fib(n-2));
 }
 
+```
+```
