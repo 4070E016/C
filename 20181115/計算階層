@@ -1,0 +1,83 @@
+用for計算階層
+
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+	int n,i,h;
+	
+	printf("請輸入要計算的階層:");
+	scanf("%d",&n);
+	h=1;
+	for(i=2;i<=n;i++)
+	{
+		h*=i;
+	}
+	printf("%d!為%d\n",n,h);
+	
+	system("pause");
+	return 0;
+}
+
+
+
+
+
+
+
+
+用while計算階層
+
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+	int n,i,h;
+	
+	printf("請輸入要計算的階層:");
+	scanf("%d",&n);
+	h=1;
+	i=2;
+	while(i<=n)
+	{
+		h*=i;
+		i++;
+	}
+	printf("%d!為%d\n",n,h);
+	
+	system("pause");
+	return 0;
+}
+
+
+
+
+
+
+
+用do while 計算階層
+
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+	int n,i,h;
+	
+	printf("請輸入要計算的階層:");
+	scanf("%d",&n);
+	h=1;
+	i=2;
+	do
+	{
+		h*=i;
+		i++;
+	}
+	while(i<=n);
+	
+	printf("%d!為%d\n",n,h);
+	
+	system("pause");
+	return 0;
+}
+
+
