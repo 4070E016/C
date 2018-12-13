@@ -17,3 +17,6 @@ int main(void)
    system("pause");
    return 0;
 }
+
+
+存取順序由右至左
